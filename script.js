@@ -5,4 +5,4 @@ console.log(pants+pants2);
 
 let n01 = 3;
 let n02 = '5';
-console.log(n01+n02);
+console.log(typeof '56');
