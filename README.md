@@ -1,2 +1,2 @@
 # Javascript-practise
-Practising Javascript here
+Practising Javascript, Typescript and React here
