@@ -1,0 +1,42 @@
+$xsmall: 320px;
+$small: 650px;
+$medium: 768px;
+$large: 1024px;
+$xlarge: 1280px;
+
+* {
+	box-sizing: border-box;
+	margin: auto;
+	padding: auto;
+	font-family: 'Poppins', sans-serif;
+}
+
+html {
+	font-size: 0.875rem;
+}
+
+body {
+	padding-top: 3rem;
+}
+
+h1,
+h2,
+h3,
+p,
+li {
+	text-align: center;
+	margin: 2rem;
+	font-size: 0.875rem;
+	@media (min-width: $small) {
+		font-size: 1rem;
+	}
+	@media (min-width: $medium) {
+		font-size: 1.25rem;
+	}
+	@media (min-width: $large) {
+		font-size: 1.75rem;
+	}
+	@media (min-width: $xlarge) {
+		font-size: 2rem;
+	}
+}

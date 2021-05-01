@@ -1,4 +1,6 @@
 "use strict";
+const menu = document.querySelector("#menu");
+const list = document.querySelector(".list");
 const RapCards = [
     {
         name: `Dababy`,
@@ -78,7 +80,7 @@ function checkforMatch() {
     cardsChosenID = [];
     result.textContent = cardsWon.length.toString();
     if (cardsWon.length === RapCards.length / 2) {
-        result.textContent = `Congratulations`;
+        result.textContent = `Congratulations!`;
     }
 }
 function createBoard() {

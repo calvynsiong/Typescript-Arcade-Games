@@ -1,3 +1,12 @@
+const menu = document.querySelector("#menu") as HTMLElement
+const list = document.querySelector(".list") as HTMLElement
+
+
+
+
+
+// })
+
 type Cards = { name: string, img: string }[]
  const RapCards: Cards = [
     {
@@ -84,7 +93,7 @@ function checkforMatch() {
   cardsChosenID = []
   result.textContent = cardsWon.length.toString()
   if  (cardsWon.length === RapCards.length / 2) {
-    result.textContent = `Congratulations`
+    result.textContent = `Congratulations!`
   }
 }
 
