@@ -1,3 +1,4 @@
-# Javascript-practice
+# Javascript/Typescript-practice
 
-Practising Javascript, Typescript and React here
+Making a collection of arcade games made with Typescript and styled with SCSS.
+
